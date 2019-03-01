@@ -1,0 +1,775 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	margin: 0;
+	background:url(../images/bg_all.jpg) no-repeat fixed 0 0 / cover;
+}
+
+#wrapper {
+	font-family: "open sans","tahoma";
+}
+
+img {
+    max-width: 100%;
+	vertical-align: bottom;
+}
+
+nav {
+    float: left;
+    height: 60px;
+    margin: 0 auto;
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav li {
+	float: left;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+nav li a {
+    border-left: 1px solid #e93e46;
+    border-right: 1px solid #ba2a2a;
+    display: block;
+    font-size: 0.97em;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 20px 15px 21px;
+    text-decoration: none;
+    transition: all 300ms ease 0s;
+}
+nav li:first-child a {
+    border-left: 0 none;
+}
+
+nav li:last-child a {
+    border-right: 0 none;
+}
+
+#navigacija {
+    margin: 0 auto;
+    width: 980px;
+}
+
+#logo {
+	padding: 0 12px 0 0;
+	overflow: hidden;
+	float: left;
+}
+
+nav li a:link { color: #fff; }
+nav li a:visited { color: #fff; }
+nav li a:hover { color: #444; background: #fff; }
+nav li a:active { color: #444; }
+
+#logo p {
+	text-align: center;
+}
+
+.fixed_size {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	zoom: 1;
+	display: block; 
+}
+
+.full_size {
+	box-sizing: border-box;
+	zoom: 1;
+	display: block; 
+}
+
+.oko_nav {
+    height: 60px;
+}
+
+.bg_red {
+	background: #e31b23;
+}
+
+.noMar {
+	margin: 0;
+}
+
+.upp {
+	text-transform: uppercase;
+}
+
+.small {
+	font-size: .9em;
+}
+
+h1, h2, h3, h4, h5, p {
+	font-family: "open sans","tahoma";
+	font-weight: 300;
+	color: #fff;
+}
+
+h1 {
+    clear: both;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 700;
+    text-shadow: 0 0 6px #000;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.centar {
+	text-align: center;
+}
+
+p {
+    color: #efefef;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.img_small {
+	display: none;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #fff;
+	transition: 150ms color ease-in-out 0s;
+}
+
+a:link { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #e31b23; }
+a:active { color: #fff; }
+
+.dugme {
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    color: #444;
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+    text-transform: uppercase;
+    width: 99%;
+}
+
+.dugme:link { background: rgba(255,255,255,.8); }
+.dugme:visited { background: rgba(255,255,255,.8); }
+.dugme:hover { background: rgba(255,255,255,.8); color: #444;}
+.dugme:active { background: rgba(255,255,255,.8); }
+
+
+
+
+/*header*/
+#header {
+    margin: 0 auto 10px;
+    overflow: hidden;
+    width: 960px;
+}
+#logo {
+    float: left;
+}
+#topRight {
+    overflow: hidden;
+}
+
+#topRight li a:link {
+    color: #828282;
+}
+#topRight li a:visited {
+    color: #828282;
+}
+#topRight li a:hover {
+    color: #000;
+}
+#topRight li a:active {
+    color: #e31b23;
+}
+
+#topRight li a {
+    font-size: 13px;
+    margin-left: 0;
+    padding: 5px 8px;
+}
+#topRight li, nav#mainNav li, #wrapperNav li {
+    float: left;
+    list-style: outside none none;
+}
+#topRight ul {
+    float: right;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+#slogan {
+    float: right;
+    width: 70%;
+}
+#slogan p {
+    color: #454545;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 6px 0;
+    padding-right: 100px;
+}
+.paragrafTop {
+    background: #e31b23 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    line-height: 17px;
+    margin: 0;
+    padding: 6px 8px;
+}
+.paragrafTopStrl {
+    float: left;
+}
+
+.o_ita {
+	border-right: 0 none;
+}
+
+.garan {
+    float: right;
+}
+.garan a {
+    border-left: 0 none;
+    margin-top: -44px;
+    padding: 0;
+}
+.garan a:hover { background: transparent; }
+
+.container {
+    background: rgba(0, 0, 0, 0) url("../images/wr_bg.png") no-repeat scroll left top 110px / 68px auto;
+    padding: 0 30px 30px !important;
+    width: 1170px !important;
+	position:relative;
+}
+
+#wrapper .container .row {
+    margin: 20px 0;
+}
+
+#wrapper .container .row .col-md-12 {
+    height: 60px;
+}
+
+
+/*kolone*/
+.kolone {
+	overflow: hidden;
+}
+
+.kolone .trecina {
+    float: left;
+    margin: 0 1% 1% 0;
+    padding: 1%;
+    width: 30.3%;
+}
+
+.krug {
+	float: left;
+	height: 60px;
+	width: 60px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	transition: all 600ms ease-in-out 0s;
+	z-index: 1;
+	position: relative;
+}
+
+.main_krugA, .main_krugB, .main_krugC, .main_krugD, .main_krugE, .main_krugF, .main_krugG, .main_krugH {
+    opacity: 1 !important;
+}
+
+.main_krugA::after, .main_krugB::after, .main_krugC::after, .main_krugD::after, .main_krugE::after, .main_krugF::after, .main_krugG::after, .main_krugH::after {
+    border-radius: 50%;
+    content: "";
+    height: 60px;
+    width: 60px;
+	z-index: 9;
+	transition: 100ms all ease-in .55s;
+	cursor: pointer;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.main_krugA::after {
+    background: url(../images/prvi/mainA.png) no-repeat 0 0 / cover;
+}
+.main_krugB::after {
+    background: url(../images/drugi/mainB.png) no-repeat 0 0 / cover !important;
+}
+.main_krugC::after {
+    background: url(../images/treci/mainC.png) no-repeat 0 0 / cover !important;
+}
+.main_krugD::after {
+    background: url(../images/cetvrti/mainD.png) no-repeat 0 0 / cover !important;
+}
+.main_krugE::after {
+    background: url(../images/peti/mainE.png) no-repeat 0 0 / cover !important;
+}
+.main_krugF::after {
+    background: url(../images/sesti/mainF.png) no-repeat 0 0 / cover !important;
+}
+.main_krugG::after {
+    background: url(../images/sedmi/mainG.png) no-repeat 0 0 / cover !important;
+}
+.main_krugH::after {
+    background: url(../images/osmi/mainH.png) no-repeat 0 0 / cover !important;
+}
+
+
+.a_1, .a_2, .a_3, .a_4, .a_5, .a_6, .a_7, .a_8, .a_9, .a_10, .a_11, .a_12, .b_1, .b_2, .b_3, .b_4, .b_5, .b_6, .b_7, .b_8, .b_9, .b_10, .b_11, .b_12, .b_13, .b_14, .b_15, .b_16, .b_17, .b_18, .c_1, .c_2, .c_3, .c_4, .c_5, .c_6, .c_7, .c_8, .c_9, .c_10, .c_11, .c_12, .c_13, .c_14, .c_15, .c_16, .d_1, .d_2, .d_3, .d_4, .d_5, .d_6, .d_7, .d_8, .d_9, .d_10, .d_11, .d_12, .d_13, .d_14, .d_15, .d_16, .d_17, .d_18, .d_19, .d_20, .d_21, .e_1, .e_2, .e_3, .e_4, .e_5, .e_6, .e_7, .e_8, .e_9, .e_10, .e_11, .e_12, .e_13, .e_14, .f_1, .f_2, .f_3, .f_4, .f_5, .f_6, .f_7, .f_8, .f_9, .f_10, .f_11, .f_12, .f_13, .f_14, .f_15, .f_16, .f_17, .f_18, .g_1, .g_2, .g_3, .g_4, .g_5, .g_6, .h_1, .h_2 {
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: 0 0;
+	opacity: .9;
+	-webkit-filter: grayscale(.3);
+    filter: grayscale(.3);
+}
+.main_krugA:hover .a_1, .main_krugA:hover .a_2, .main_krugA:hover .a_3, .main_krugA:hover .a_4, .main_krugA:hover .a_5, .main_krugA:hover .a_6, .main_krugA:hover .a_7, .main_krugA:hover .a_8, .main_krugA:hover .a_9, .main_krugA:hover .a_10, .main_krugA:hover .a_11, .main_krugA:hover .a_12, .main_krugB:hover .b_1, .main_krugB:hover .b_2, .main_krugB:hover .b_3, .main_krugB:hover .b_4, .main_krugB:hover .b_5, .main_krugB:hover .b_6, .main_krugB:hover .b_7, .main_krugB:hover .b_8, .main_krugB:hover .b_9, .main_krugB:hover .b_10, .main_krugB:hover .b_11, .main_krugB:hover .b_12, .main_krugB:hover .b_13, .main_krugB:hover .b_14, .main_krugB:hover .b_15, .main_krugB:hover .b_16, .main_krugB:hover .b_17, .main_krugB:hover .b_18, .main_krugC:hover .c_1, .main_krugC:hover .c_2, .main_krugC:hover .c_3, .main_krugC:hover .c_4, .main_krugC:hover .c_5, .main_krugC:hover .c_6, .main_krugC:hover .c_7, .main_krugC:hover .c_8, .main_krugC:hover .c_9, .main_krugC:hover .c_10, .main_krugC:hover .c_11, .main_krugC:hover .c_12, .main_krugC:hover .c_13, .main_krugC:hover .c_14, .main_krugC:hover .c_15, .main_krugC:hover .c_16, .main_krugD:hover .d_1, .main_krugD:hover .d_2, .main_krugD:hover .d_3, .main_krugD:hover .d_4, .main_krugD:hover .d_5, .main_krugD:hover .d_6, .main_krugD:hover .d_7, .main_krugD:hover .d_8, .main_krugD:hover .d_9, .main_krugD:hover .d_10, .main_krugD:hover .d_11, .main_krugD:hover .d_12, .main_krugD:hover .d_13, .main_krugD:hover .d_14, .main_krugD:hover .d_15, .main_krugD:hover .d_16, .main_krugD:hover .d_17, .main_krugD:hover .d_18, .main_krugD:hover .d_19, .main_krugD:hover .d_20, .main_krugD:hover .d_21, .main_krugE:hover .e_1, .main_krugE:hover .e_2, .main_krugE:hover .e_3, .main_krugE:hover .e_4, .main_krugE:hover .e_5, .main_krugE:hover .e_6, .main_krugE:hover .e_7, .main_krugE:hover .e_8, .main_krugE:hover .e_9, .main_krugE:hover .e_10, .main_krugE:hover .e_11, .main_krugE:hover .e_12, .main_krugE:hover .e_13, .main_krugE:hover .e_14, .main_krugF:hover .f_1, .main_krugF:hover .f_2, .main_krugF:hover .f_3, .main_krugF:hover .f_4, .main_krugF:hover .f_5, .main_krugF:hover .f_6, .main_krugF:hover .f_7, .main_krugF:hover .f_8, .main_krugF:hover .f_9, .main_krugF:hover .f_10, .main_krugF:hover .f_11, .main_krugF:hover .f_12, .main_krugF:hover .f_13, .main_krugF:hover .f_14, .main_krugF:hover .f_15, .main_krugF:hover .f_16, .main_krugF:hover .f_17, .main_krugF:hover .f_18, .main_krugG:hover .g_1, .main_krugG:hover .g_2, .main_krugG:hover .g_3, .main_krugG:hover .g_4, .main_krugG:hover .g_5, .main_krugG:hover .g_6, .main_krugH:hover .h_1, .main_krugH:hover .h_2 {
+	opacity: 1;
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/*a*/
+.a_1 { background-image: url(../images/prvi/NikadNijeKasno-02.png); transform: translateX(-664px); }
+.a_2 { background-image: url(../images/prvi/NikadNijeKasno-03.png); transform: translateX(-594px); }
+.a_3 { background-image: url(../images/prvi/NikadNijeKasno-04.png); transform: translateX(-524px); }
+.a_4 { background-image: url(../images/prvi/NikadNijeKasno-05.png); transform: translateX(-455px); }
+.a_5 { background-image: url(../images/prvi/NikadNijeKasno-06.png); transform: translateX(-381px); }
+.a_6 { background-image: url(../images/prvi/NikadNijeKasno-07.png); transform: translateX(-305px); }
+.a_7 { background-image: url(../images/prvi/NikadNijeKasno-08.png); transform: translateX(-229px); }
+.a_8 { background-image: url(../images/prvi/NikadNijeKasno-09.png); transform: translateX(-156px); }
+.a_9 { background-image: url(../images/prvi/NikadNijeKasno-10.png); transform: translateX(-84px); }
+.a_10 { background-image: url(../images/prvi/NikadNijeKasno-11.png); transform: translateX(-11px); }
+.a_11 { background-image: url(../images/prvi/NikadNijeKasno-12.png); transform: translateX(59px); }
+.a_12 { background-image: url(../images/prvi/NikadNijeKasno-13.png); transform: translateX(133px); }
+
+.main_krugA:hover .a_1 { transform: translateX(-510px) }
+.main_krugA:hover .a_2 { transform: translateX(-320px) }
+.main_krugA:hover .a_3 { transform: translateX(-130px) }
+.main_krugA:hover .a_4 { transform: translateX(60px) }
+.main_krugA:hover .a_5 { transform: translateX(250px) }
+.main_krugA:hover .a_6 { transform: translateX(440px) }
+.main_krugA:hover .a_7 { transform: translateX(630px) }
+.main_krugA:hover .a_8 { transform: translateX(820px) }
+.main_krugA:hover .a_9 { transform: translate(-30px, 210px) }
+.main_krugA:hover .a_10 { transform: translate(160px, 210px) }
+.main_krugA:hover .a_11 { transform: translate(350px, 210px) }
+.main_krugA:hover .a_12 { transform: translate(540px, 210px) }
+
+/*b*/
+.b_1 { background-image: url(../images/drugi/NikadNijeKasno-99.png); transform: translateX(-1026px); }
+.b_2 { background-image: url(../images/drugi/NikadNijeKasno-98.png); transform: translateX(-953px); }
+.b_3 { background-image: url(../images/drugi/NikadNijeKasno-97.png); transform: translateX(-878px); }
+.b_4 { background-image: url(../images/drugi/NikadNijeKasno-96.png); transform: translateX(-805px); }
+.b_5 { background-image: url(../images/drugi/NikadNijeKasno-95.png); transform: translateX(-732px); }
+.b_6 { background-image: url(../images/drugi/NikadNijeKasno-94.png); transform: translateX(-660px); }
+.b_7 { background-image: url(../images/drugi/NikadNijeKasno-93.png); transform: translateX(-587px); }
+.b_8 { background-image: url(../images/drugi/NikadNijeKasno-92.png); transform: translateX(-517px); }
+.b_9 { background-image: url(../images/drugi/NikadNijeKasno-91.png); transform: translateX(-446px); }
+.b_10 { background-image: url(../images/drugi/NikadNijeKasno-90.png); transform: translateX(-372px); }
+.b_11 { background-image: url(../images/drugi/NikadNijeKasno-89.png); transform: translateX(-299px); }
+.b_12 { background-image: url(../images/drugi/NikadNijeKasno-88.png); transform: translateX(-225px); }
+.b_13 { background-image: url(../images/drugi/NikadNijeKasno-87.png); transform: translateX(-155px); }
+.b_14 { background-image: url(../images/drugi/NikadNijeKasno-86.png); transform: translateX(-78px); }
+.b_15 { background-image: url(../images/drugi/NikadNijeKasno-85.png); transform: translateX(-2px); }
+.b_16 { background-image: url(../images/drugi/NikadNijeKasno-84.png); transform: translateX(73px); }
+.b_17 { background-image: url(../images/drugi/NikadNijeKasno-83.png); transform: translateX(147px); }
+.b_18 { background-image: url(../images/drugi/NikadNijeKasno-82.png); transform: translateX(220px); }
+
+.main_krugB:hover .b_1 { transform: translate(-870px, -80px) }
+.main_krugB:hover .b_2 { transform: translate(-680px, -80px) }
+.main_krugB:hover .b_3 { transform: translate(-490px, -80px) }
+.main_krugB:hover .b_4 { transform: translate(-300px, -80px) }
+.main_krugB:hover .b_5 { transform: translate(-110px, -80px) }
+.main_krugB:hover .b_6 { transform: translate(80px, -80px) }
+.main_krugB:hover .b_7 { transform: translate(270px, -80px) }
+.main_krugB:hover .b_8 { transform: translate(460px, -80px) }
+.main_krugB:hover .b_9 { transform: translate(-390px, 120px) }
+.main_krugB:hover .b_10 { transform: translate(-200px, 120px) }
+.main_krugB:hover .b_11 { transform: translate(-10px, 120px) }
+.main_krugB:hover .b_12 { transform: translate(180px, 120px) }
+.main_krugB:hover .b_13 { transform: translate(370px, 120px) }
+.main_krugB:hover .b_14 { transform: translate(560px, 120px) }
+.main_krugB:hover .b_15 { transform: translate(750px, 120px) }
+.main_krugB:hover .b_16 { transform: translate(940px, 120px) }
+.main_krugB:hover .b_17 { transform: translate(90px, 320px) }
+.main_krugB:hover .b_18 { transform: translate(280px, 320px) }
+
+/*c*/
+.c_1 { background-image: url(../images/treci/NikadNijeKasno-60.png); transform: translateX(-903px); }
+.c_2 { background-image: url(../images/treci/NikadNijeKasno-61.png); transform: translateX(-828px); }
+.c_3 { background-image: url(../images/treci/NikadNijeKasno-62.png); transform: translateX(-754px); }
+.c_4 { background-image: url(../images/treci/NikadNijeKasno-63.png); transform: translateX(-679px); }
+.c_5 { background-image: url(../images/treci/NikadNijeKasno-64.png); transform: translateX(-608px); }
+.c_6 { background-image: url(../images/treci/NikadNijeKasno-65.png); transform: translateX(-527px); }
+.c_7 { background-image: url(../images/treci/NikadNijeKasno-66.png); transform: translateX(-534px); }
+.c_8 { background-image: url(../images/treci/NikadNijeKasno-67.png); transform: translateX(-458px); }
+.c_9 { background-image: url(../images/treci/NikadNijeKasno-68.png); transform: translateX(-382px); }
+.c_10 { background-image: url(../images/treci/NikadNijeKasno-69.png); transform: translateX(-308px); }
+.c_11 { background-image: url(../images/treci/NikadNijeKasno-70.png); transform: translateX(-209px); }
+.c_12 { background-image: url(../images/treci/NikadNijeKasno-71.png); transform: translateX(-137px); }
+.c_13 { background-image: url(../images/treci/NikadNijeKasno-72.png); transform: translateX(-62px); }
+.c_14 { background-image: url(../images/treci/NikadNijeKasno-73.png); transform: translateX(11px); }
+.c_15 { background-image: url(../images/treci/NikadNijeKasno-74.png); transform: translateX(84px); }
+.c_16 { background-image: url(../images/treci/NikadNijeKasno-81.png); transform: translateX(157px); }
+
+.main_krugC:hover .c_1 { transform: translate(-750px, -160px) }
+.main_krugC:hover .c_2 { transform: translate(-560px, -160px) }
+.main_krugC:hover .c_3 { transform: translate(-370px, -160px) }
+.main_krugC:hover .c_4 { transform: translate(-180px, -160px) }
+.main_krugC:hover .c_5 { transform: translate(10px, -160px) }
+.main_krugC:hover .c_6 { transform: translate(200px, -160px) }
+.main_krugC:hover .c_7 { transform: translate(390px, -160px) }
+.main_krugC:hover .c_8 { transform: translate(580px, -160px) }
+.main_krugC:hover .c_9 { transform: translate(-270px, 40px) }
+.main_krugC:hover .c_10 { transform: translate(-80px, 40px) }
+.main_krugC:hover .c_11 { transform: translate(110px, 40px) }
+.main_krugC:hover .c_12 { transform: translate(300px, 40px) }
+.main_krugC:hover .c_13 { transform: translate(490px, 40px) }
+.main_krugC:hover .c_14 { transform: translate(680px, 40px) }
+.main_krugC:hover .c_15 { transform: translate(870px, 40px) }
+.main_krugC:hover .c_16 { transform: translate(1060px, 40px) }
+
+/*d*/
+.d_1 { background-image: url(../images/cetvrti/NikadNijeKasno-45.png); transform: translate(-134px, -60px); }
+.d_2 { background-image: url(../images/cetvrti/NikadNijeKasno-46.png); transform: translate(-59px, -60px); }
+.d_3 { background-image: url(../images/cetvrti/NikadNijeKasno-47.png); transform: translate(0px, -60px); }
+.d_4 { background-image: url(../images/cetvrti/NikadNijeKasno-48.png); transform: translateX(-1010px); }
+.d_5 { background-image: url(../images/cetvrti/NikadNijeKasno-49.png); transform: translateX(-934px); }
+.d_6 { background-image: url(../images/cetvrti/NikadNijeKasno-50.png); transform: translateX(-861px); }
+.d_7 { background-image: url(../images/cetvrti/NikadNijeKasno-51.png); transform: translateX(-786px); }
+.d_8 { background-image: url(../images/cetvrti/NikadNijeKasno-52.png); transform: translateX(-712px); }
+.d_9 { background-image: url(../images/cetvrti/NikadNijeKasno-53.png); transform: translateX(-639px); }
+.d_10 { background-image: url(../images/cetvrti/NikadNijeKasno-54.png); transform: translateX(-565px); }
+.d_11 { background-image: url(../images/cetvrti/NikadNijeKasno-55.png); transform: translateX(-493px); }
+.d_12 { background-image: url(../images/cetvrti/NikadNijeKasno-56.png); transform: translateX(-421px); }
+.d_13 { background-image: url(../images/cetvrti/NikadNijeKasno-57.png); transform: translateX(-349px); }
+.d_14 { background-image: url(../images/cetvrti/NikadNijeKasno-58.png); transform: translateX(-277px); }
+.d_15 { background-image: url(../images/cetvrti/NikadNijeKasno-59.png); transform: translateX(-203px); }
+.d_16 { background-image: url(../images/cetvrti/NikadNijeKasno-75.png); transform: translateX(-129px); }
+.d_17 { background-image: url(../images/cetvrti/NikadNijeKasno-76.png); transform: translateX(-56px); }
+.d_18 { background-image: url(../images/cetvrti/NikadNijeKasno-77.png); transform: translateX(19px); }
+.d_19 { background-image: url(../images/cetvrti/NikadNijeKasno-78.png); transform: translateX(92px); }
+.d_20 { background-image: url(../images/cetvrti/NikadNijeKasno-79.png); transform: translateX(162px); }
+.d_21 { background-image: url(../images/cetvrti/NikadNijeKasno-80.png); transform: translateX(234px); }
+
+.main_krugD:hover .d_1 { transform: translate(30px, -300px) }
+.main_krugD:hover .d_2 { transform: translate(220px, -300px) }
+.main_krugD:hover .d_3 { transform: translate(410px, -300px) }
+.main_krugD:hover .d_4 { transform: translate(-480px, -240px) }
+.main_krugD:hover .d_5 { transform: translate(-290px, -240px) }
+.main_krugD:hover .d_6 { transform: translate(-100px, -240px) }
+.main_krugD:hover .d_7 { transform: translate(90px, -240px) }
+.main_krugD:hover .d_8 { transform: translate(280px, -240px) }
+.main_krugD:hover .d_9 { transform: translate(-570px, -40px) }
+.main_krugD:hover .d_10 { transform: translate(-380px, -40px) }
+.main_krugD:hover .d_11 { transform: translate(-190px, -40px) }
+.main_krugD:hover .d_12 { transform: translate(0px, -40px) }
+.main_krugD:hover .d_13 { transform: translate(190px, -40px) }
+.main_krugD:hover .d_14 { transform: translate(380px, -40px) }
+.main_krugD:hover .d_15 { transform: translate(570px, -40px) }
+.main_krugD:hover .d_16 { transform: translate(760px, -40px) }
+.main_krugD:hover .d_17 { transform: translate(-90px, 160px) }
+.main_krugD:hover .d_18 { transform: translate(100px, 160px) }
+.main_krugD:hover .d_19 { transform: translate(290px, 160px) }
+.main_krugD:hover .d_20 { transform: translate(480px, 160px) }
+.main_krugD:hover .d_21 { transform: translate(670px, 160px) }
+
+/*e*/
+.e_1 { background-image: url(../images/peti/NikadNijeKasno-32.png); transform: translateX(-784px); }
+.e_2 { background-image: url(../images/peti/NikadNijeKasno-33.png); transform: translateX(-713px); }
+.e_3 { background-image: url(../images/peti/NikadNijeKasno-34.png); transform: translateX(-642px); }
+.e_4 { background-image: url(../images/peti/NikadNijeKasno-35.png); transform: translateX(-570px); }
+.e_5 { background-image: url(../images/peti/NikadNijeKasno-36.png); transform: translateX(-497px); }
+.e_6 { background-image: url(../images/peti/NikadNijeKasno-37.png); transform: translateX(-424px); }
+.e_7 { background-image: url(../images/peti/NikadNijeKasno-38.png); transform: translateX(-350px); }
+.e_8 { background-image: url(../images/peti/NikadNijeKasno-39.png); transform: translateX(-278px); }
+.e_9 { background-image: url(../images/peti/NikadNijeKasno-40.png); transform: translateX(-206px); }
+.e_10 { background-image: url(../images/peti/NikadNijeKasno-41.png); transform: translateX(-132px); }
+.e_11 { background-image: url(../images/peti/NikadNijeKasno-42.png); transform: translateX(-61px); }
+.e_12 { background-image: url(../images/peti/NikadNijeKasno-01.png); transform: translateX(12px); }
+.e_13 { background-image: url(../images/peti/NikadNijeKasno-43.png); transform: translateX(85px); }
+.e_14 { background-image: url(../images/peti/NikadNijeKasno-44.png); transform: translateX(158px); }
+
+.main_krugE:hover .e_1 { transform: translate(-630px, -320px) }
+.main_krugE:hover .e_2 { transform: translate(-440px, -320px) }
+.main_krugE:hover .e_3 { transform: translate(-250px, -320px) }
+.main_krugE:hover .e_4 { transform: translate(-60px, -320px) }
+.main_krugE:hover .e_5 { transform: translate(130px, -320px) }
+.main_krugE:hover .e_6 { transform: translate(320px, -320px) }
+.main_krugE:hover .e_7 { transform: translate(510px, -320px) }
+.main_krugE:hover .e_8 { transform: translate(700px, -320px) }
+.main_krugE:hover .e_9 { transform: translate(-150px, -120px) }
+.main_krugE:hover .e_10 { transform: translate(40px, -120px) }
+.main_krugE:hover .e_11 { transform: translate(230px, -120px) }
+.main_krugE:hover .e_12 { transform: translate(420px, -120px) }
+.main_krugE:hover .e_13 { transform: translate(610px, -120px) }
+.main_krugE:hover .e_14 { transform: translate(800px, -120px) }
+
+/*f*/
+.f_1 { background-image: url(../images/sesti/NikadNijeKasno-20.png); transform: translateX(-1030px); }
+.f_2 { background-image: url(../images/sesti/NikadNijeKasno-21.png); transform: translateX(-962px); }
+.f_3 { background-image: url(../images/sesti/NikadNijeKasno-22.png); transform: translateX(-893px); }
+.f_4 { background-image: url(../images/sesti/NikadNijeKasno-23.png); transform: translateX(-826px); }
+.f_5 { background-image: url(../images/sesti/NikadNijeKasno-24.png); transform: translateX(-758px); }
+.f_6 { background-image: url(../images/sesti/NikadNijeKasno-25.png); transform: translateX(-690px); }
+.f_7 { background-image: url(../images/sesti/NikadNijeKasno-26.png); transform: translateX(-622px); }
+.f_8 { background-image: url(../images/sesti/NikadNijeKasno-27.png); transform: translateX(-554px); }
+.f_9 { background-image: url(../images/sesti/NikadNijeKasno-28.png); transform: translateX(-486px); }
+.f_10 { background-image: url(../images/sesti/NikadNijeKasno-29.png); transform: translateX(-410px); }
+.f_11 { background-image: url(../images/sesti/NikadNijeKasno-30.png); transform: translateX(-338px); }
+.f_12 { background-image: url(../images/sesti/NikadNijeKasno-31.png); transform: translateX(-262px); }
+.f_13 { background-image: url(../images/sedmi/NikadNijeKasno-14.png); transform: translateX(-188px); }
+.f_14 { background-image: url(../images/sedmi/NikadNijeKasno-17.png); transform: translateX(-111px); }
+.f_15 { background-image: url(../images/sedmi/NikadNijeKasno-18.png); transform: translateX(-38px); }
+.f_16 { background-image: url(../images/sedmi/NikadNijeKasno-19.png); transform: translateX(35px); }
+.f_17 { background-image: url(../images/osmi/NikadNijeKasno-15.png); transform: translateX(108px); }
+.f_18 { background-image: url(../images/osmi/NikadNijeKasno-16.png); transform: translateX(180px); }
+
+.main_krugF:hover .f_1 { transform: translate(-870px, -400px) }
+.main_krugF:hover .f_2 { transform: translate(-680px, -400px) }
+.main_krugF:hover .f_3 { transform: translate(-490px, -400px) }
+.main_krugF:hover .f_4 { transform: translate(-300px, -400px) }
+.main_krugF:hover .f_5 { transform: translate(-110px, -400px) }
+.main_krugF:hover .f_6 { transform: translate(80px, -400px) }
+.main_krugF:hover .f_7 { transform: translate(270px, -400px) }
+.main_krugF:hover .f_8 { transform: translate(460px, -400px) }
+.main_krugF:hover .f_9 { transform: translate(-390px, -200px) }
+.main_krugF:hover .f_10 { transform: translate(-200px,-200px) }
+.main_krugF:hover .f_11 { transform: translate(-10px, -200px) }
+.main_krugF:hover .f_12 { transform: translate(180px, -200px) }
+.main_krugF:hover .f_13 { transform: translate(370px, -200px) }
+.main_krugF:hover .f_14 { transform: translate(560px, -200px) }
+.main_krugF:hover .f_15 { transform: translate(750px, -200px) }
+.main_krugF:hover .f_16 { transform: translate(940px, -200px) }
+.main_krugF:hover .f_17 { transform: translate(90px, 0px) }
+.main_krugF:hover .f_18 { transform: translate(280px, 0px) }
+
+/*g
+.g_1 { background-image: url(../images/sedmi/NikadNijeKasno-14.png); transform: translateX(-306px); }
+.g_2 { background-image: url(../images/sedmi/NikadNijeKasno-17.png); transform: translateX(-238px); }
+.g_3 { background-image: url(../images/sedmi/NikadNijeKasno-18.png); transform: translateX(-169px); }
+.g_4 { background-image: url(../images/sedmi/NikadNijeKasno-19.png); transform: translateX(-102px); }
+.g_5 { background-image: url(../images/osmi/NikadNijeKasno-15.png); transform: translateX(-34px); }
+.g_6 { background-image: url(../images/osmi/NikadNijeKasno-16.png); transform: translateX(35px); }
+
+.main_krugG:hover .g_1 { transform: translate(-150px, -480px) }
+.main_krugG:hover .g_2 { transform: translate(40px, -480px) }
+.main_krugG:hover .g_3 { transform: translate(230px, -480px) }
+.main_krugG:hover .g_4 { transform: translate(420px, -480px) }
+.main_krugG:hover .g_5 { transform: translate(610px, -480px) }
+.main_krugG:hover .g_6 { transform: translate(800px, -480px) }
+
+/*h
+.h_1 { background-image: url(../images/osmi/NikadNijeKasno-15.png); transform: translateX(-69px); }
+.h_2 { background-image: url(../images/osmi/NikadNijeKasno-16.png); transform: translateX(-2px); }
+
+.main_krugH:hover .h_1 { transform: translate(90px, -560px) }
+.main_krugH:hover .h_2 { transform: translate(280px, -560px) }
+*/
+
+.main_krugA:hover .tool, .main_krugB:hover .tool, .main_krugC:hover .tool, .main_krugD:hover .tool, .main_krugE:hover .tool, .main_krugF:hover .tool, .main_krugG:hover .tool, .main_krugH:hover .tool { 
+	opacity: 1; top: 60px; 
+}
+
+.main_krugA:hover:after, .main_krugB:hover:after, .main_krugC:hover:after, .main_krugD:hover:after, .main_krugE:hover:after, .main_krugF:hover:after, .main_krugG:hover:after, .main_krugH:hover:after {
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+}
+
+.op {
+	opacity: 0 !important;
+}
+
+
+.tool {
+    left: -55px;
+    opacity: 0;
+    padding: 5px;
+    position: absolute;
+    top: -30px;
+    transition: all 600ms ease-in-out 0s;
+    width: 117px;
+}
+.tool h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+}
+.tool h4 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+    font-style: italic;
+    margin: 7px 0;
+	display: none;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.tool p {
+    border-right: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding-right: 5px;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.text_in {
+    position: absolute;
+    right: 0;
+    text-align: right;
+	transition: all 400ms ease-in-out 0s;
+    top: 10%;
+    width: 64%;
+    z-index: 9999;
+}
+
+.centar.red {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-bottom: -30px;
+    padding-bottom: 15px;
+	display: none;
+	padding-top: 17px;
+}
+
+.nema {
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1160px) {
+	
+.container {
+	width: 100% !important;
+	background: none;
+}
+
+.text_in {
+	position: static;
+	text-align: center;
+	width: 100%;
+}
+
+.a_1, .a_2, .a_3, .a_4, .a_5, .a_6, .a_7, .a_8, .a_9, .a_10, .a_11, .a_12, .b_1, .b_2, .b_3, .b_4, .b_5, .b_6, .b_7, .b_8, .b_9, .b_10, .b_11, .b_12, .b_13, .b_14, .b_15, .b_16, .b_17, .b_18, .c_1, .c_2, .c_3, .c_4, .c_5, .c_6, .c_7, .c_8, .c_9, .c_10, .c_11, .c_12, .c_13, .c_14, .c_15, .c_16, .d_1, .d_2, .d_3, .d_4, .d_5, .d_6, .d_7, .d_8, .d_9, .d_10, .d_11, .d_12, .d_13, .d_14, .d_15, .d_16, .d_17, .d_18, .d_19, .d_20, .d_21, .e_1, .e_2, .e_3, .e_4, .e_5, .e_6, .e_7, .e_8, .e_9, .e_10, .e_11, .e_12, .e_13, .e_14, .f_1, .f_2, .f_3, .f_4, .f_5, .f_6, .f_7, .f_8, .f_9, .f_10, .f_11, .f_12, .f_13, .f_14, .f_15, .f_16, .f_17, .f_18, .g_1, .g_2, .g_3, .g_4, .g_5, .g_6, .h_1, .h_2 {
+	position: static !important;
+	float: left;
+	transform: translate(0);
+	margin: 60px 50px;
+}
+
+.main_krugA:hover .a_1, .main_krugA:hover .a_2, .main_krugA:hover .a_3, .main_krugA:hover .a_4, .main_krugA:hover .a_5, .main_krugA:hover .a_6, .main_krugA:hover .a_7, .main_krugA:hover .a_8, .main_krugA:hover .a_9, .main_krugA:hover .a_10, .main_krugA:hover .a_11, .main_krugA:hover .a_12, .main_krugB:hover .b_1, .main_krugB:hover .b_2, .main_krugB:hover .b_3, .main_krugB:hover .b_4, .main_krugB:hover .b_5, .main_krugB:hover .b_6, .main_krugB:hover .b_7, .main_krugB:hover .b_8, .main_krugB:hover .b_9, .main_krugB:hover .b_10, .main_krugB:hover .b_11, .main_krugB:hover .b_12, .main_krugB:hover .b_13, .main_krugB:hover .b_14, .main_krugB:hover .b_15, .main_krugB:hover .b_16, .main_krugB:hover .b_17, .main_krugB:hover .b_18, .main_krugC:hover .c_1, .main_krugC:hover .c_2, .main_krugC:hover .c_3, .main_krugC:hover .c_4, .main_krugC:hover .c_5, .main_krugC:hover .c_6, .main_krugC:hover .c_7, .main_krugC:hover .c_8, .main_krugC:hover .c_9, .main_krugC:hover .c_10, .main_krugC:hover .c_11, .main_krugC:hover .c_12, .main_krugC:hover .c_13, .main_krugC:hover .c_14, .main_krugC:hover .c_15, .main_krugC:hover .c_16, .main_krugD:hover .d_1, .main_krugD:hover .d_2, .main_krugD:hover .d_3, .main_krugD:hover .d_4, .main_krugD:hover .d_5, .main_krugD:hover .d_6, .main_krugD:hover .d_7, .main_krugD:hover .d_8, .main_krugD:hover .d_9, .main_krugD:hover .d_10, .main_krugD:hover .d_11, .main_krugD:hover .d_12, .main_krugD:hover .d_13, .main_krugD:hover .d_14, .main_krugD:hover .d_15, .main_krugD:hover .d_16, .main_krugD:hover .d_17, .main_krugD:hover .d_18, .main_krugD:hover .d_19, .main_krugD:hover .d_20, .main_krugD:hover .d_21, .main_krugE:hover .e_1, .main_krugE:hover .e_2, .main_krugE:hover .e_3, .main_krugE:hover .e_4, .main_krugE:hover .e_5, .main_krugE:hover .e_6, .main_krugE:hover .e_7, .main_krugE:hover .e_8, .main_krugE:hover .e_9, .main_krugE:hover .e_10, .main_krugE:hover .e_11, .main_krugE:hover .e_12, .main_krugE:hover .e_13, .main_krugE:hover .e_14, .main_krugF:hover .f_1, .main_krugF:hover .f_2, .main_krugF:hover .f_3, .main_krugF:hover .f_4, .main_krugF:hover .f_5, .main_krugF:hover .f_6, .main_krugF:hover .f_7, .main_krugF:hover .f_8, .main_krugF:hover .f_9, .main_krugF:hover .f_10, .main_krugF:hover .f_11, .main_krugF:hover .f_12, .main_krugF:hover .f_13, .main_krugF:hover .f_14, .main_krugF:hover .f_15, .main_krugF:hover .f_16, .main_krugF:hover .f_17, .main_krugF:hover .f_18 {
+	transform: translate(0);
+}
+
+.main_krugA::after {
+    background: none;}
+.main_krugB::after {
+    background: none !important}
+.main_krugC::after {
+    background: none !important}
+.main_krugD::after {
+    background: none !important}
+.main_krugE::after {
+     background: none !important}
+.main_krugF::after {
+    background: none !important}
+.main_krugG::after {
+    background: none !important}
+.main_krugH::after {
+    background: none !important}
+	
+	
+*:hover {
+	transform: translate(0) !important;
+	box-shadow: none !important;
+}
+
+.main_krugA:after, .main_krugB:after, .main_krugC:after, .main_krugD:after, .main_krugE:after, .main_krugF:after, .main_krugG:after, .main_krugH:after {
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+}
+
+.op {
+	opacity: 1 !important;
+}
+
+.tool {
+    opacity: 1 !important;
+    padding: 60px 0 0;
+    position: static !important;
+    width: 130px;
+}
+
+.tool h3, .tool p {
+	text-align: left;
+}
+
+.tool p {
+	border-right: 0 none;
+	padding-right: 0;
+	padding-left: 5px;
+	border-left: 1px solid #fff;
+}
+
+.row {
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+
+#wrapper .container .row .col-md-12 {
+    height: auto;
+}
+
+.centar.red {
+	display: block;
+}
+
+.main_krugA::after, .main_krugB::after, .main_krugC::after, .main_krugD::after, .main_krugE::after, .main_krugF::after, .main_krugG::after, .main_krugH::after {
+    margin: 0 auto;
+    right: 0;
+	top: 17px;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
